@@ -1,5 +1,3 @@
-import Footer from './Footer';
-
 function Home() {
     return (
         <>
@@ -16,7 +14,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <Footer/>
         </>
     );
 }

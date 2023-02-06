@@ -8,7 +8,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <div className="left-menu">
                         <ul className="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                            <CustomLink to="/">HOME</CustomLink>
+                        <CustomLink to="/">HOME</CustomLink>
                             <CustomLink to="/about">ABOUT</CustomLink>
                             <CustomLink to="/tarieven">TARIEVEN</CustomLink>
                         </ul>
@@ -36,6 +36,7 @@ export default function Navbar() {
                 </button>
             </nav>
         </section>
+
     )
 }
 
