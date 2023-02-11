@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="media-container-row align-center mbr-white">
                     <div className="col-12">
                         <p className="mbr-text mb-0 mbr-fonts-style display-7">
-                            © Copyright 2025 Mobirise - All Rights Reserved
+                            © Copyright 2025 BookTaxiNow - All Rights Reserved
                         </p>
                     </div>
                 </div>
