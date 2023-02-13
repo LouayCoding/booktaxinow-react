@@ -1,3 +1,5 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+
 function Home(props) {
     return (
         <>
@@ -22,14 +24,14 @@ function Home(props) {
           {props.text}
         </h4>
         <div className="mbr-section-btn align-center">
-          <a className="btn btn-danger display-7" href="/contact">
+          <a className="btn btn-danger display-7" href="https://booktaxinow.nl/book">
             <span className="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn" />
             Boek Taxi
           </a>{" "}
-          <a className="btn btn-white display-7" href={'/contact'}>
+          <Link className="btn btn-white display-7" to='/contact'>
             <span className="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn" />
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </div>

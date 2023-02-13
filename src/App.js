@@ -35,6 +35,7 @@ const location = useLocation()
             <Route path="/horeca" element={<Article title={nl.horeca.title} text={nl.horeca.text} class='horeca' />}></Route>
             <Route path="/fixed-prices" element={<Prices/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
+            
           </Routes>
           <Footer />
         </motion.div >
